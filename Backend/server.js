@@ -20,6 +20,7 @@ const db = mysql.createConnection({
   database: 'grocery_system',
 });
 
+
 db.connect(err => {
   if (err) {
     console.error('❌ MySQL connection failed:', err);
