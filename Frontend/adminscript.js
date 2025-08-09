@@ -155,7 +155,7 @@ async function loadReviews() {
       list.appendChild(row);
     });
   } catch (err) {
-    console.error('Error loading reviews:', err);
+    console.error('Error loading complaints:', err);
   }
 }
 
@@ -166,3 +166,4 @@ document.addEventListener('DOMContentLoaded', () => {
 document.getElementById("admin-logout").addEventListener("click", () => {
   location.reload();
 });
+
